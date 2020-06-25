@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "serverprotect",
+  "version": "${version}",
+  "name": "ServerProtect",
+  "description": "Serverside grief protection",
+  "authors": [
+    "HalfOf2"
+  ],
+  "contact": {
+    "sources": "https://github.com/TeenGamingNights/ServerProtect"
+  },
+  "license": "LGPLv3.0",
+  "icon": "assets/serverprotect/icon.png",
+  "environment": "*",
+  "mixins": [
+    "serverprotect.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.8+build.202",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  }
+}

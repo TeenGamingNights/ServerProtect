@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.teengamingnights.serverprotect.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerBreakBlockEvent"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

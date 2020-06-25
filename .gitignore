@@ -1,0 +1,7 @@
+# yes
+.gradle/
+.idea/
+build/
+
+*.class
+*.iml
